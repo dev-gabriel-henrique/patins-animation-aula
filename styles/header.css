@@ -1,0 +1,28 @@
+header {
+  max-width: 80rem;
+  width: 100%;
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & img {
+    width: 2rem;
+    height: 2rem;
+
+    transition: transform 500ms;
+  }
+
+  & img[src*="logo"]:hover {
+    transform: rotate(90deg);
+  }
+
+  & img[src*="shopping"]:hover {
+    transform: rotate(-30deg);
+  }
+  @media (width < 80em) {
+    max-width: 22.5rem;
+    padding: 1.5rem 1.25rem;
+  }
+}
+
