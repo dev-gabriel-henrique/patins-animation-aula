@@ -98,3 +98,19 @@ footer {
     }
   }
 }
+
+@media (width < 80em) {
+  footer {
+    max-width: 22.5rem;
+    padding: 3rem 1.5rem 1.5rem;
+
+    display: grid;
+    gap: 3rem;
+
+    & nav {
+      display: grid;
+      gap: 1.5rem;
+      
+    }
+  }
+}
