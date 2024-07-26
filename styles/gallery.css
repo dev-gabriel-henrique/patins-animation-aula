@@ -33,6 +33,12 @@ section.gallery {
       line-height: 0;
 
       animation: img-appear linear backwards;
+      animation-timeline: view();
+      animation-range: 100px 400px;
+
+      &[data-delay] {
+        animation-range: 150px 450px;
+      }
 
       & > img {
         height: 25rem;
