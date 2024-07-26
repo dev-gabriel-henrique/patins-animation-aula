@@ -119,6 +119,7 @@ section.gallery {
     }
 
     & figure {
+      
       & > img {
         max-height: 16rem;
         width: 19.5rem;
